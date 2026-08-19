@@ -1,0 +1,14 @@
+{
+  "name": "ehm-load-test",
+  "version": "1.0.0",
+  "description": "Load-testing and InfluxDB seeding tools for EHM/ECP container metrics — not part of the ehm-api runtime.",
+  "private": true,
+  "license": "UNLICENSED",
+  "scripts": {
+    "seed-monthly-metrics": "node seed-influx-monthly-metrics.js"
+  },
+  "dependencies": {
+    "@influxdata/influxdb3-client": "^1.2.0",
+    "dotenv": "^16.4.5"
+  }
+}
